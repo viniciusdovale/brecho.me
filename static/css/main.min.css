@@ -18,7 +18,7 @@ html *:after {
 }
 body {
   background-color: #f1ecef;
-  color: #292929;
+  color: #8a888a;
   font: 400 16px/1.5em 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -477,6 +477,14 @@ select[multiple] {
   border-radius: 7px;
 }
 
+h1 {
+  font-size: 18px;
+  color: #dc6139;
+  margin: 20px 0
+}
+h1 span {
+  color: #a09c98
+}
 
 /*  Estilos globais
    ========================================================================== */
@@ -517,4 +525,69 @@ select[multiple] {
   background-color: #c84d68;
   -webkit-box-shadow: 2px 3px 0 0 #bc4761;
   box-shadow: 2px 3px 0 0 #bc4761;
+}
+
+#slide {
+  background: url(../img/banner-home.jpg) center center no-repeat;
+  height: 560px;
+}
+#form-search {
+  text-align: center
+}
+#form-search p {
+  padding: 20px 0;
+  font-size: 26px;
+  text-align: center;
+}
+#form-search input[type="text"] {
+  width: 723px;
+  padding: 8px 5px;
+  font-size: 18px;
+  color: #a5a2a5;
+  -webkit-box-shadow:inset 0 0 15px 0 rgba(1,1,1,0.1);
+  box-shadow:inset 0 0 15px 0 rgba(1,1,1,0.1);
+  border:1px solid #ccc; 
+}
+#bt-search {
+  color: #fff;
+  background-color: #00a4b4;
+  width: 155px;
+  text-align: center;
+  padding: 9px 0;
+  -webkit-box-shadow: 2px 3px 0 0 #0092a1;
+  box-shadow: 2px 3px 0 0 #0092a1;
+  font-size: 18px;
+  display: inline-block;
+}
+#home {
+  margin-top: 30px;
+}
+
+/*============ Estilo box de produtos ============*/
+.box-products {
+  width: 380px;
+  text-align: center;
+  background-color: #fff;
+  margin:0 30px 30px 0;
+  -webkit-box-shadow: 0 0 2px 0 rgba(1,1,1,0.1);
+  box-shadow: 0 0 2px 0 rgba(1,1,1,0.1);
+}
+.box-products h2 {
+  margin: 5px 0;
+  font-size: 15px;
+}
+.box-products p {
+  color: #e35576;
+  font-size: 20px
+}
+.box-products span {
+  color: #818181;
+  font-size: 16px
+}
+.box-products span + span {
+  color: #e35576
+}
+#home > div:nth-child(4),
+#home > div:nth-child(7) {
+  margin-right: 0
 }
